@@ -19,24 +19,31 @@ img {
     font-size: smaller;
 }
 
+P{
+    font-size: smaller;
+}
+
+h4{
+    font-size: smaller;
+}
 .discount {
     position: absolute;
     left: 0;
-    bottom: -330px;
+    bottom: 30px;
     background-color: red;
     color: white;
-    padding: 5px;
+    padding: 3px;
     z-index: 1;
 
 }
 
 .description {
     position: absolute;
-    bottom: -330px;
+    bottom: 30px;
     left: 50px;
     background-color: green;
     color: white;
-    padding: 5px;
+    padding: 3px;
 }
 
 .like {
@@ -50,9 +57,9 @@ img {
 }
 
 .info-card {
-    position: absolute;
-    left: 110px;
-    bottom: 290px;
+   
+    margin: 5px;
+    
 }
 
 .default-image {
@@ -62,7 +69,7 @@ img {
 }
 
 .hover-img {
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     z-index: -1;
