@@ -19,13 +19,14 @@ img {
     font-size: smaller;
 }
 
-P{
+P {
     font-size: smaller;
 }
 
-h4{
+h4 {
     font-size: smaller;
 }
+
 .discount {
     position: absolute;
     left: 0;
@@ -57,9 +58,9 @@ h4{
 }
 
 .info-card {
-   
+
     margin: 5px;
-    
+
 }
 
 .default-image {
