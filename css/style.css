@@ -9,6 +9,36 @@ img {
     max-width: 100%;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: orangered;
+    padding: 20px;
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+header logo{
+    height: 40px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
 .new-price {
     color: red;
     font-size: smaller;
@@ -103,11 +133,13 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 10px;
+    /* row-gap: 10px; */
+    gap: 20px;
 }
 
 .col {
-    width: calc(95%/3);
+    /* width: calc(95%/3); */
+    width: calc((100% - 40px) / 3);
     /*debug*/
     /* border: 2px solid black;
     min-height: 200px; */
